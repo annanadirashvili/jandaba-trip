@@ -42,3 +42,15 @@
     }
     
 }
+
+/* -------------------POLAND------------------ */
+
+@media (max-width: 860px){
+    .div-of-krk-wrc-main {
+        width: 100%;
+        height: auto;
+        background-color: yellow;
+        
+    }
+}
+
