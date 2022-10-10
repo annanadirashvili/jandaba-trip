@@ -83,7 +83,7 @@ a{
     background: rgb(252, 252, 253);
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: 6px;
     transition: 0.5s;
 }
 /* ხაზი */
@@ -123,7 +123,10 @@ a{
     
 }
 .div-of-krk-wrc-main a{
-    color: black;
+    color: rgb(241, 232, 232);
+    font-weight: 700;
+
+    
 }
 .div-of-krk-wrc-main img {
     opacity: 0.89;
@@ -145,5 +148,7 @@ a{
     left: 25%;
     cursor: pointer;
     font-family: Courier, monospace;
+    color: rgb(241, 232, 232);
+    font-weight: 700;
 
 }

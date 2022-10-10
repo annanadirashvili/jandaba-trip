@@ -81,7 +81,7 @@ a{
     background: rgb(252, 252, 253);
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: 6px;
     transition: 0.5s;
 }
 /* ხაზი */
