@@ -78,10 +78,18 @@
         position: absolute;
         font-size: 60px;
         top: 40%;
-        left: 5%;
-        width: 100%;
+        left: 0%;
         
     }
+    .div-of-krk-wrc-main h2 {
+        top: 40%;
+        left: 0%;
+    }
+    .div-of-krk-wrc-main {
+        width: 700px;
+        height: auto;
+    }
+    
 }
 @media (max-width: 740px){
     .div-of-krk-wrc-main {
