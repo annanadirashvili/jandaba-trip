@@ -132,7 +132,7 @@ a{
 /* plan-divs */
 .grey-div div {
     width: 16%;
-    height: 300px;
+    height: 250px;
     background-color: rgba(236, 238, 242, 0.8);
     position: relative;
     top: -60%;
