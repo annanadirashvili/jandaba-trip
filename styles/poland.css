@@ -23,10 +23,8 @@ a{
     width: 100%;
     height: 60px;
     display: flex;
-    
     z-index: 1000;
     background-color: rgb(67, 68, 89);
-    position: relative;
     position: fixed;
     
 }
@@ -143,6 +141,7 @@ a{
     font-family: Courier, monospace;
 
 }
+
 .div-of-krk-wrc-main h2 {
     position: absolute;
     font-size: 70px;
