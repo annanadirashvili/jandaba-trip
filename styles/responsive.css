@@ -94,8 +94,13 @@
 }
 @media (max-width: 740px){
     .navbar-link-container {
+
         display: none;
     }
+    .heaader-img-container {
+        width: auto;
+    }
+   
     .div-of-krk-wrc-main {
         max-width: 700px;
         height: 50vh;
@@ -118,6 +123,11 @@
     
 }
 @media (max-width: 570px){
+    
+    .div-of-krk-wrc-main{
+        width: 100%;
+        background-color: red;
+    }
     .div-of-krk-wrc-main div {
         position: absolute;
         font-size: 50px;
@@ -125,6 +135,7 @@
         left: 0%;
         
     }
+       
     .div-of-krk-wrc-main h2{
         font-size: 50px;
         top: 40%;

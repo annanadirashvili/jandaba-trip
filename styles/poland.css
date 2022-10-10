@@ -30,7 +30,7 @@ a{
     
 }
 .heaader-img-container {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     position: relative;
@@ -120,6 +120,7 @@ a{
     width: 50%;
     height: 100vh;
     position: relative;
+    background-color: red;
     
 }
 .div-of-krk-wrc-main a{
