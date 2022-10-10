@@ -116,28 +116,28 @@
 @media (max-width: 570px){
     .div-of-krk-wrc-main div {
         position: absolute;
-        font-size: 60px;
+        font-size: 50px;
         top: 40%;
-        left: 20%;
+        left: 0%;
         
     }
     .div-of-krk-wrc-main h2{
-        font-size: 70px;
+        font-size: 50px;
         top: 40%;
-        left: 20%;
+        left: 0%;
     }
 }
 @media (max-width: 475px){
     .div-of-krk-wrc-main div {
         position: absolute;
-        font-size: 60px;
+        font-size: 40px;
         top: 40%;
-        left: 15%;
+        left: 0%;
         
     }
     .div-of-krk-wrc-main h2{
-        font-size: 70px;
+        font-size: 40px;
         top: 40%;
-        left: 10%;
+        left: 0%;
     }
 }
