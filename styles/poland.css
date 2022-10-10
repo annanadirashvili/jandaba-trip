@@ -119,10 +119,31 @@ a{
     display: flex;
     width: 50%;
     height: 100vh;
-    /* margin-top: 60px; */
-    /* margin-bottom: 30px; */
+    position: relative;
+    
 }
-
+.div-of-krk-wrc-main a{
+    color: black;
+}
 .div-of-krk-wrc-main img {
     opacity: 0.89;
+    
+}
+.div-of-krk-wrc-main div {
+    position: absolute;
+    font-size: 70px;
+    top: 40%;
+    left: 20%;
+    cursor: pointer;
+    font-family: Courier, monospace;
+
+}
+.div-of-krk-wrc-main h2 {
+    position: absolute;
+    font-size: 70px;
+    top: 40%;
+    left: 25%;
+    cursor: pointer;
+    font-family: Courier, monospace;
+
 }
