@@ -51,7 +51,7 @@ a{
 .nav-bar img:hover{
     /* width: 40px; */
     opacity: 1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 } 
 .navbar-link-container{
     display: flex;
@@ -273,10 +273,12 @@ a{
     display: none;
 }
 .toggle-navigation img {
-    margin-top: 10px;
-    width: 100px;
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
 }
 .toggle-navigation a{
+    margin-top: -50px;
     font-size: 40px;
     color: white;
 }
