@@ -96,10 +96,10 @@
     .overlay {
         display: none;
     }
-    .pop-up{
+    /* .pop-up{
         width: 100%;
         top: 140%;
-    }
+    } */
     .div-of-krk-wrc-main div {
         position: absolute;
         font-size: 60px;
@@ -118,6 +118,9 @@
     
 }
 @media (max-width: 740px){
+    .close-modal {
+        font-size: 3rem;
+    }
     
     .navbar-link-container {
 
@@ -151,6 +154,9 @@
     }
 }
 @media (max-width: 570px){
+    .close-modal {
+        font-size: 2rem;
+    }
     .pop-up{
         width: 100%;
         top: 200%;

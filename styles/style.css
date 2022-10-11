@@ -188,7 +188,7 @@ a{
     position: absolute;
     top: 1.2rem;
     right: 2rem;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #333;
     cursor: pointer;
     border: none;
@@ -226,6 +226,7 @@ a{
     font-size: 20px;
     text-align: center;
     color: rgb(69, 81, 110);
+    margin-top: -40px;
 
   }
   .pop-up div ul {
