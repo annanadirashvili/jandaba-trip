@@ -118,6 +118,7 @@
     
 }
 @media (max-width: 740px){
+    
     .close-modal {
         font-size: 3rem;
     }
@@ -154,6 +155,12 @@
     }
 }
 @media (max-width: 570px){
+    .pop-up div ul li{
+        font-size: 11px;
+    }
+    .pop-up div h3{
+        font-size: 17px;
+    }
     .close-modal {
         font-size: 2rem;
     }
