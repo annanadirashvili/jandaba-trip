@@ -171,7 +171,6 @@ a{
     font-family: Snell Roundhand, cursive;
     color: rgb(96, 91, 91);
     font-weight: 600;
-    cursor: default;
 }
 /* --------------inside-div-P-es */
 .div-of-grey-div p{
@@ -179,7 +178,6 @@ a{
     margin-bottom: 10px;
     font-family: Snell Roundhand, cursive;
     color: rgb(96, 91, 91);
-    cursor: default;
 
 }
 
@@ -223,5 +221,27 @@ a{
   }
   .hidden{
     display: none;
+  }
+  .pop-up div h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(69, 81, 110);
+
+  }
+  .pop-up div ul {
+    padding-top: 50px;
+  }
+  .pop-up div ul li {
+    margin-top: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    
+  }
+  .pop-up div ul li a {
+    color: rgb(69, 81, 110);
+  }
+  .pop-up div ul li a:hover{
+    color: rgb(42, 49, 66);
+    font-weight: 700;
   }
 
