@@ -1,64 +1,41 @@
-document.addEventListener('DOMContentLoaded', function(){
-    var script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
-    script.onload = function(){
-        particlesJS("snow", {
-            "particles": {
-                "number": {
-                    "value": 200,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "opacity": {
-                    "value": 0.7,
-                    "random": false,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": {
-                        "enable": false
-                    }
-                },
-                "line_linked": {
-                    "enable": false
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 5,
-                    "direction": "bottom",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": true,
-                        "rotateX": 300,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "events": {
-                    "onhover": {
-                        "enable": false
-                    },
-                    "onclick": {
-                        "enable": false
-                    },
-                    "resize": false
-                }
-            },
-            "retina_detect": true
-        });
+'use strict'
+
+// pop up window functional on Main-plan section
+
+const popUp = document.querySelector('.pop-up');
+const overlay = document.querySelector('.overlay');
+const btnCloseModal = document.querySelector('.close-modal');
+const btnsOpenModal = document.querySelectorAll('.div-of-grey-div');
+
+
+// ----------------------------------------
+// function to open a modal:
+
+const showPopUp = function(){
+    popUp.classList.remove('hidden');
+    overlay.classList.remove('hidden');
+}
+
+// function to close pop-up
+
+const closePopUp = function(){
+    popUp.classList.add('hidden');
+    overlay.classList.add('hidden');
+}
+
+// -----------------(functional)-----------------------
+// openind window 
+for (let i = 0; i<btnsOpenModal.length; i++)
+btnsOpenModal[i].addEventListener('click', showPopUp);
+
+// to close pop-up
+
+btnCloseModal.addEventListener('click', closePopUp);
+overlay.addEventListener('click', closePopUp)
+// to close window using esc
+
+document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && !popUp.classList.contains('hidden')){
+        closePopUp();
     }
-    document.head.append(script);
-});
+})

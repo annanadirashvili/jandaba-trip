@@ -75,6 +75,13 @@
     }
 }
 @media (max-width: 860px){
+    .overlay {
+        display: none;
+    }
+    .pop-up{
+        width: 100%;
+        top: 140%;
+    }
     .div-of-krk-wrc-main div {
         position: absolute;
         font-size: 60px;
@@ -93,6 +100,7 @@
     
 }
 @media (max-width: 740px){
+    
     .navbar-link-container {
 
         display: none;
@@ -123,6 +131,11 @@
     
 }
 @media (max-width: 570px){
+    .pop-up{
+        width: 100%;
+        top: 200%;
+
+    }
     
     .div-of-krk-wrc-main{
         width: 100%;
