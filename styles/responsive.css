@@ -134,7 +134,6 @@
     .pop-up{
         width: 100%;
         top: 200%;
-        /* display  : none; */
         position : fixed;
         top      : 50%;
         left     : 50%;
