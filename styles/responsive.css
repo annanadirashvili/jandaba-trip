@@ -36,10 +36,11 @@
         margin-top: 50px;
         font-size: 15px;
         font-weight: 700;
-        font-family: Snell Roundhand, cursive;
+        
     }
     .div-of-grey-div h5{
         margin-top: 10px;
+
     }
     
 }
@@ -128,7 +129,9 @@
         top: 40%;
         left: 30%;
     }
-    
+    .div-of-grey-div h2 {
+        font-family: Verdana, sans-serif;
+    }
 }
 @media (max-width: 570px){
     .pop-up{
