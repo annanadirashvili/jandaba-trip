@@ -45,16 +45,20 @@ document.addEventListener('keydown', function(e){
 
 const toggleButton = document.querySelector('.fas');
 const toggleMenu = document.querySelector('.toggle-navigation');
-
+const togglePlan = document.querySelector('.toggle-plan');
 // functions
 
 const unableToggleMenu = function(){
+    toggleMenu.classList.toggle('hidden');
+}
+const disableToggleMenu = function(){
     toggleMenu.classList.toggle('hidden');
 }
 
 
 // ---------functional
 toggleButton.addEventListener('click', unableToggleMenu);
+togglePlan.addEventListener('click', disableToggleMenu)
     
      
     
