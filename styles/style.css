@@ -201,7 +201,7 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;  
-    background-color: rgba(254, 242, 250, 0.9);
+    background-color: rgba(244, 242, 243, 0.8);
     padding: 6rem;
     border-radius: 5px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
@@ -245,4 +245,42 @@ a{
     color: rgb(42, 49, 66);
     font-weight: 700;
   }
+
+  /* ---------------------toggle -----------------*/
+  .fa-bars {
+    color: rgb(223, 232, 241);
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    cursor: pointer;
+    display: none;
+  }
+.toggle-navigation {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    height: 100vh;
+    background-color: rgb(67, 68, 89);
+    display: flex;
+    flex-direction:column;
+    align-items: center;  
+    justify-content: space-around; 
+    transition: 0.6ms;
+    
+}
+.hidden{
+    display: none;
+}
+.toggle-navigation img {
+    margin-top: 10px;
+    width: 100px;
+}
+.toggle-navigation a{
+    font-size: 40px;
+    color: white;
+}
+.toggle-navigation img:hover{
+    box-shadow: none;
+}
 

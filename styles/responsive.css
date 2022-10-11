@@ -53,7 +53,7 @@
         display: none;
     }
     .pop-up {
-        background-color: rgba(254, 242, 250, 9);
+        background-color: rgb(244, 242, 243);
         width: 100%;
         top: 200%;
         position : fixed;
@@ -93,6 +93,12 @@
     }
 }
 @media (max-width: 860px){
+    .navbar-link-container {
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
     .overlay {
         display: none;
     }
@@ -118,6 +124,7 @@
     
 }
 @media (max-width: 740px){
+   
     
     .close-modal {
         font-size: 3rem;
@@ -155,6 +162,18 @@
     }
 }
 @media (max-width: 570px){
+    
+    .nav-bar img{
+        width: 30px;
+    }
+    .toggle-navigation img {
+        margin-top: 10px;
+        width: 100px;
+    }
+    .flag-czech {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .pop-up div ul li{
         font-size: 11px;
     }
