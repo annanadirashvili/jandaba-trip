@@ -162,7 +162,9 @@
     }
 }
 @media (max-width: 570px){
-    
+    .arrival-03-12, .arrival-09-12, .leaving-04-12, .leaving-10-12 {
+        height: 50vh;
+    }
     .nav-bar img{
         width: 50px;
     }
