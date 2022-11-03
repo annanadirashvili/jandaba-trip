@@ -1,0 +1,267 @@
+body{
+    background-color: rgb(67, 68, 89);
+    
+}
+.hidden {
+    display: none;
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ----------Header----------- */
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    z-index: 900;
+    margin-top: 8px;
+    /* background-color: rgb(67, 68, 89); */
+    position: fixed;
+    
+}
+.heaader-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 5%;
+    
+}
+
+.nav-bar img{
+    width: 75px;
+    border-radius: 50%;
+    margin-top: -3px;
+    opacity: 0.8;
+}
+
+.flag-czech {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-bar img:hover{
+    /* width: 40px; */
+    opacity: 1;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+} 
+.navbar-link-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 5%;
+}
+
+.navbar-link-container a{
+    font-size: 20px;
+   
+    margin-top: 12px;
+    margin-right: 15px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-family: "ALK Life", sans-serif; */
+    /* ხაზის გასავლებად */
+    position: relative;
+       
+}
+.navbar-link-container a:hover {
+    color: white;
+}
+/* ხაზი */
+.navbar-link-container a::after{
+    content: '';
+    height: 1.5px;
+    width: 0;
+    background: rgb(252, 252, 253);
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    transition: 0.5s;
+}
+/* ხაზი */
+/* .navbar-link-container a:hover::after{
+    width: 100%;
+} */
+
+/* for toggle??? */
+.fa-bars {
+    color: rgb(223, 232, 241);
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    cursor: pointer;
+    display: none;
+  }
+  .toggle-navigation {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    height: 100vh;
+    background-color: rgb(67, 68, 89);
+    display: flex;
+    flex-direction:column;
+    align-items: center;  
+    justify-content: space-around; 
+    transition: 0.6ms;
+    
+}
+.toggle-navigation img {
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+}
+.toggle-navigation a{
+    margin-top: -50px;
+    font-size: 40px;
+    color: white;
+}
+.toggle-navigation img:hover{
+    box-shadow: none;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* for dropdown */
+.drobdown  {
+    position: relative;
+    display: inline-block;
+    
+  }
+  .drobdown1  {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+.dropbtn {
+    margin-left: 5px;
+    background-color: rgb(146, 147, 160); 
+    opacity: 0.;
+        color: white;
+    padding: 8px 25px;
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "ALK Life", sans-serif;
+    border: none;
+    border-radius: 35%;
+    cursor: pointer;
+}
+.dropbtn1 {
+    margin-left: 5px;
+    background-color: rgb(146, 147, 160); 
+    opacity: 0.9;
+    color: white;
+    padding: 8px 25px;
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "ALK Life", sans-serif;
+    border: none;
+    border-radius: 35%;
+
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(2, 3, 19);
+   
+  }
+  .dropbtn1:hover {
+    background-color: rgb(2, 3, 19);
+   
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(217, 203, 219); 
+    opacity: 0.9;
+    min-width: 115px;
+    overflow: auto;
+    border: ridge;
+    border-radius: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(190, 183, 183, 0.2);
+    z-index: 1;
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: rgb(217, 203, 219); 
+    opacity: 0.9;
+
+    border-radius: 25%;
+    border: ridge;
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(190, 183, 183, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(71, 63, 70);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content1 a {
+    color: rgb(71, 63, 70);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown a:hover {
+    /* background-color: rgb(58, 59, 77); */
+    color: rgb(51, 45, 50);
+}
+.dropdown1 a:hover {
+    /* background-color: rgb(58, 59, 77); */
+    color: rgb(51, 45, 50);
+}
+.show {
+    display: block;
+}
+
+
+/* main-section */
+
+.main-section img {
+    width: 100%;
+    height: 100vh;
+}
+/* arrival section */
+.arrival-section {
+    width: 100%;
+    height: 100vh;
+}
+/* Main section */
+.day-one img{
+    width: 100%;
+    background-color: red;
+    height: 100vh;
+}
+.day-two img {
+    width: 100%;
+    height: 100vh;
+}
+/* leaving section */
+
+.leaving-section {
+    width: 100%;
+    height: 100vh;
+}

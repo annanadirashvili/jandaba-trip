@@ -156,6 +156,7 @@ a{
 /* -----------inside-div-H-es */
 .div-of-grey-div {
     cursor: pointer;
+
 }
 .div-of-grey-div h3 {
     font-size: 15px;
@@ -285,4 +286,40 @@ a{
 .toggle-navigation img:hover{
     box-shadow: none;
 }
+/* for poland drop down */
 
+  
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    opacity: 0.7;
+    background-color: rgb(217, 203, 219); 
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(190, 183, 183, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-size: 20px;
+    font-weight:800;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: rgb(58, 59, 77);;
+    color: white;
+}
+  
+  .show {display: block;}
