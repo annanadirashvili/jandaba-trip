@@ -4,10 +4,12 @@ const toggleButton = document.querySelector('.fas');
 const toggleMenu = document.querySelector('.toggle-navigation');
 const togglePlanOne = document.querySelector('.toggle-plan-one')
 const togglePlan = document.querySelector('.toggle-plan');
+const toggleArrival = document.querySelector('.toggle-arrival');
+const toggleLeaving = document.querySelector('.toggle-leaving');
 
 // functions
 
-const unableToggleMenu = function(){
+function unableToggleMenu() {
     toggleMenu.classList.toggle('hidden');
 }
 const disableToggleMenu = function(){
@@ -19,7 +21,8 @@ const disableToggleMenu = function(){
 toggleButton.addEventListener('click', unableToggleMenu);
 togglePlan.addEventListener('click', disableToggleMenu);
 togglePlanOne.addEventListener('click', disableToggleMenu);
-
+toggleArrival.addEventListener('click', disableToggleMenu);
+toggleLeaving.addEventListener('click', disableToggleMenu);
     
 
 // for dropdown manu
